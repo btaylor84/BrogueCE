@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5AC967A2720D49300077517 /* platformdependent.c.old in Sources */ = {isa = PBXBuildFile; fileRef = B5F40753271DE8C3005C2DD9 /* platformdependent.c.old */; };
 		C4170021281718DC00704CD4 /* BrogueCE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C417001F281717CB00704CD4 /* BrogueCE.ttf */; };
-		C451840B281D979F003DDB6D /* platformdependent.c in Sources */ = {isa = PBXBuildFile; fileRef = C451840A281D979F003DDB6D /* platformdependent.c */; };
+		C430BF20281F33B600E47810 /* curses-platform.c in Sources */ = {isa = PBXBuildFile; fileRef = C430BF15281F33B600E47810 /* curses-platform.c */; };
+		C430BF21281F33B600E47810 /* term.c in Sources */ = {isa = PBXBuildFile; fileRef = C430BF17281F33B600E47810 /* term.c */; };
+		C430BF22281F33B600E47810 /* web-platform.c in Sources */ = {isa = PBXBuildFile; fileRef = C430BF19281F33B600E47810 /* web-platform.c */; };
+		C430BF23281F33B600E47810 /* sdl2-platform.c in Sources */ = {isa = PBXBuildFile; fileRef = C430BF1B281F33B600E47810 /* sdl2-platform.c */; };
+		C430BF24281F33B600E47810 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C430BF1C281F33B600E47810 /* main.c */; };
+		C430BF25281F33B600E47810 /* tiles.c in Sources */ = {isa = PBXBuildFile; fileRef = C430BF1D281F33B600E47810 /* tiles.c */; };
+		C430BF26281F33B600E47810 /* platformdependent.c in Sources */ = {isa = PBXBuildFile; fileRef = C430BF1F281F33B600E47810 /* platformdependent.c */; };
+		C430BF28281F359300E47810 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C430BF27281F359300E47810 /* Images.xcassets */; };
+		C430BF2A281F35AE00E47810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C430BF29281F35AE00E47810 /* Main.storyboard */; };
 		C52686AB215C0B5D00033E3F /* PowerTables.c in Sources */ = {isa = PBXBuildFile; fileRef = C52686AA215C0B5D00033E3F /* PowerTables.c */; };
 		C532C8A61971AB8800695956 /* DirectionControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C532C8A41971AB8800695956 /* DirectionControlsViewController.m */; };
 		C57A962916D7EAD500C233F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57A962816D7EAD500C233F1 /* UIKit.framework */; };
@@ -52,14 +59,10 @@
 		C5958C79174AFFBB00519AD9 /* brogue_sproutedseed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5958C69174AFFBB00519AD9 /* brogue_sproutedseed@2x.png */; };
 		C5958C7A174AFFBB00519AD9 /* gamecenterlogo_brogue.png in Resources */ = {isa = PBXBuildFile; fileRef = C5958C6A174AFFBB00519AD9 /* gamecenterlogo_brogue.png */; };
 		C5958C7B174AFFBB00519AD9 /* gamecenterlogo_brogue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5958C6B174AFFBB00519AD9 /* gamecenterlogo_brogue@2x.png */; };
-		C5B7FF1B1D8D933D00F04098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B7FF1A1D8D933D00F04098 /* Main.storyboard */; };
-		C5B9B66C17D23BEA00D8459E /* Time.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5B9B66B17D23BE900D8459E /* Time.mm */; };
-		C5D117041D8B786800356DBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D117031D8B786800356DBA /* Images.xcassets */; };
 		C5D5EC6C16FC07EB00E9A9AF /* icon_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D5EC6B16FC07EB00E9A9AF /* icon_72x72.png */; };
 		C5D5EC6E16FC07F300E9A9AF /* icon_144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D5EC6D16FC07F300E9A9AF /* icon_144x144.png */; };
 		C5FFC5DD17B9A913007A05F3 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FFC5DC17B9A913007A05F3 /* Default-Landscape@2x~ipad.png */; };
 		C5FFC5DF17B9A9DB007A05F3 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FFC5DE17B9A9DB007A05F3 /* Default-Landscape~ipad.png */; };
-		D0AA262E9AAE2270BA0ABBA1 /* RogueMain.mm in Sources */ = {isa = PBXBuildFile; fileRef = C57A966416D7EB5500C233F1 /* RogueMain.mm */; };
 		ECBE68A71EC0D4A200E9F366 /* RogueScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE68A61EC0D4A200E9F366 /* RogueScene.swift */; };
 		ECBE68A91EC0D4C600E9F366 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE68A81EC0D4C600E9F366 /* Cell.swift */; };
 		ECBE68AB1EC0DB1800E9F366 /* SKViewPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE68AA1EC0DB1800E9F366 /* SKViewPort.swift */; };
@@ -68,11 +71,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B5F40753271DE8C3005C2DD9 /* platformdependent.c.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = platformdependent.c.old; sourceTree = "<group>"; };
-		B5F40755271DE8EB005C2DD9 /* platform.h.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = platform.h.old; sourceTree = "<group>"; };
-		C417001F281717CB00704CD4 /* BrogueCE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrogueCE.ttf; sourceTree = "<group>"; };
-		C451840A281D979F003DDB6D /* platformdependent.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = platformdependent.c; sourceTree = "<group>"; };
-		C451840C281D97AF003DDB6D /* platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		C417001F281717CB00704CD4 /* BrogueCE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BrogueCE.ttf; path = ios/BrogueCE.ttf; sourceTree = "<group>"; };
+		C430BF15281F33B600E47810 /* curses-platform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "curses-platform.c"; sourceTree = "<group>"; };
+		C430BF16281F33B600E47810 /* PlatformDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformDefines.h; sourceTree = "<group>"; };
+		C430BF17281F33B600E47810 /* term.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = term.c; sourceTree = "<group>"; };
+		C430BF18281F33B600E47810 /* tiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiles.h; sourceTree = "<group>"; };
+		C430BF19281F33B600E47810 /* web-platform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "web-platform.c"; sourceTree = "<group>"; };
+		C430BF1A281F33B600E47810 /* term.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = term.h; sourceTree = "<group>"; };
+		C430BF1B281F33B600E47810 /* sdl2-platform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sdl2-platform.c"; sourceTree = "<group>"; };
+		C430BF1C281F33B600E47810 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C430BF1D281F33B600E47810 /* tiles.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tiles.c; sourceTree = "<group>"; };
+		C430BF1E281F33B600E47810 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		C430BF1F281F33B600E47810 /* platformdependent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = platformdependent.c; sourceTree = "<group>"; };
+		C430BF27281F359300E47810 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ios/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		C430BF29281F35AE00E47810 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ios/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		C5213CD31B75445F00E97A27 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C52686A6215C0A9800033E3F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		C52686A8215C0AA800033E3F /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
@@ -83,17 +95,17 @@
 		C57A962816D7EAD500C233F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C57A962A16D7EAD500C233F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C57A962C16D7EAD500C233F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C57A963016D7EAD500C233F1 /* iBrogueCE_iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBrogueCE_iPad-Info.plist"; sourceTree = "<group>"; };
+		C57A963016D7EAD500C233F1 /* iBrogueCE_iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "iBrogueCE_iPad-Info.plist"; path = "ios/iBrogueCE_iPad-Info.plist"; sourceTree = "<group>"; };
 		C57A963216D7EAD500C233F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C57A963416D7EAD500C233F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C57A963616D7EAD500C233F1 /* iBrogue_iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBrogue_iPad-Prefix.pch"; sourceTree = "<group>"; };
-		C57A963716D7EAD500C233F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C57A963816D7EAD500C233F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C57A963A16D7EAD500C233F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		C57A963C16D7EAD500C233F1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		C57A963E16D7EAD500C233F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C57A964D16D7EB4C00C233F1 /* RogueDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RogueDriver.h; sourceTree = "<group>"; };
-		C57A964E16D7EB4C00C233F1 /* RogueDriver.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RogueDriver.mm; sourceTree = "<group>"; };
+		C57A963416D7EAD500C233F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ios/main.m; sourceTree = "<group>"; };
+		C57A963616D7EAD500C233F1 /* iBrogueCE_iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iBrogueCE_iPad-Prefix.pch"; path = "ios/iBrogueCE_iPad-Prefix.pch"; sourceTree = "<group>"; };
+		C57A963716D7EAD500C233F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../ios/AppDelegate.h; sourceTree = "<group>"; };
+		C57A963816D7EAD500C233F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../ios/AppDelegate.m; sourceTree = "<group>"; };
+		C57A963A16D7EAD500C233F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ios/Default.png; sourceTree = "<group>"; };
+		C57A963C16D7EAD500C233F1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "ios/Default@2x.png"; sourceTree = "<group>"; };
+		C57A963E16D7EAD500C233F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "ios/Default-568h@2x.png"; sourceTree = "<group>"; };
+		C57A964D16D7EB4C00C233F1 /* RogueDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RogueDriver.h; path = PlatformCode/RogueDriver.h; sourceTree = "<group>"; };
+		C57A964E16D7EB4C00C233F1 /* RogueDriver.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RogueDriver.mm; path = PlatformCode/RogueDriver.mm; sourceTree = "<group>"; };
 		C57A965416D7EB5500C233F1 /* Architect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Architect.c; sourceTree = "<group>"; };
 		C57A965516D7EB5500C233F1 /* Buttons.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Buttons.c; sourceTree = "<group>"; };
 		C57A965616D7EB5500C233F1 /* Combat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Combat.c; sourceTree = "<group>"; };
@@ -109,7 +121,6 @@
 		C57A966016D7EB5500C233F1 /* Movement.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Movement.c; sourceTree = "<group>"; };
 		C57A966216D7EB5500C233F1 /* Recordings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Recordings.c; sourceTree = "<group>"; };
 		C57A966316D7EB5500C233F1 /* Rogue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rogue.h; sourceTree = "<group>"; };
-		C57A966416D7EB5500C233F1 /* RogueMain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RogueMain.mm; sourceTree = "<group>"; };
 		C57A967416DBF1CE00C233F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C5958C5C174AFFBB00519AD9 /* about_brogue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_brogue.png; sourceTree = "<group>"; };
 		C5958C5D174AFFBB00519AD9 /* about_brogue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about_brogue@2x.png"; sourceTree = "<group>"; };
@@ -127,19 +138,16 @@
 		C5958C69174AFFBB00519AD9 /* brogue_sproutedseed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brogue_sproutedseed@2x.png"; sourceTree = "<group>"; };
 		C5958C6A174AFFBB00519AD9 /* gamecenterlogo_brogue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamecenterlogo_brogue.png; sourceTree = "<group>"; };
 		C5958C6B174AFFBB00519AD9 /* gamecenterlogo_brogue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gamecenterlogo_brogue@2x.png"; sourceTree = "<group>"; };
-		C5B7FF1A1D8D933D00F04098 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C5B9B66B17D23BE900D8459E /* Time.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Time.mm; sourceTree = "<group>"; };
-		C5D117031D8B786800356DBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5D5EC6B16FC07EB00E9A9AF /* icon_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_72x72.png; sourceTree = "<group>"; };
 		C5D5EC6D16FC07F300E9A9AF /* icon_144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_144x144.png; sourceTree = "<group>"; };
 		C5EA72D616FE92DC00AE688A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		C5FFC5DC17B9A913007A05F3 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		C5FFC5DE17B9A9DB007A05F3 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		ECBE68A51EC0D45200E9F366 /* iBrogue_iPad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBrogue_iPad-Bridging-Header.h"; sourceTree = "<group>"; };
-		ECBE68A61EC0D4A200E9F366 /* RogueScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RogueScene.swift; sourceTree = "<group>"; };
-		ECBE68A81EC0D4C600E9F366 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
-		ECBE68AA1EC0DB1800E9F366 /* SKViewPort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKViewPort.swift; sourceTree = "<group>"; };
-		ECBE68AC1EC0E1C600E9F366 /* BrogueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrogueViewController.swift; sourceTree = "<group>"; };
+		ECBE68A51EC0D45200E9F366 /* iBrogue_iPad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iBrogue_iPad-Bridging-Header.h"; path = "/Users/bob/Developer/BrogueCE/ios/PlatformCode/iBrogue_iPad-Bridging-Header.h"; sourceTree = "<absolute>"; };
+		ECBE68A61EC0D4A200E9F366 /* RogueScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RogueScene.swift; path = PlatformCode/RogueScene.swift; sourceTree = "<group>"; };
+		ECBE68A81EC0D4C600E9F366 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = PlatformCode/Cell.swift; sourceTree = "<group>"; };
+		ECBE68AA1EC0DB1800E9F366 /* SKViewPort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKViewPort.swift; path = PlatformCode/SKViewPort.swift; sourceTree = "<group>"; };
+		ECBE68AC1EC0E1C600E9F366 /* BrogueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrogueViewController.swift; path = PlatformCode/BrogueViewController.swift; sourceTree = "<group>"; };
 		ECE2547B2404464700BAC3F4 /* Math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Math.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +166,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C430BF14281F33B600E47810 /* platformCode */ = {
+			isa = PBXGroup;
+			children = (
+				C430BF15281F33B600E47810 /* curses-platform.c */,
+				C430BF16281F33B600E47810 /* PlatformDefines.h */,
+				C430BF17281F33B600E47810 /* term.c */,
+				C430BF18281F33B600E47810 /* tiles.h */,
+				C430BF19281F33B600E47810 /* web-platform.c */,
+				C430BF1A281F33B600E47810 /* term.h */,
+				C430BF1B281F33B600E47810 /* sdl2-platform.c */,
+				C430BF1C281F33B600E47810 /* main.c */,
+				C430BF1D281F33B600E47810 /* tiles.c */,
+				C430BF1E281F33B600E47810 /* platform.h */,
+				C430BF1F281F33B600E47810 /* platformdependent.c */,
+			);
+			name = platformCode;
+			path = src/platformCode;
+			sourceTree = SOURCE_ROOT;
+		};
 		C57A961C16D7EAD500C233F1 = {
 			isa = PBXGroup;
 			children = (
@@ -193,14 +220,15 @@
 		C57A962E16D7EAD500C233F1 /* iBrogueCE_iPad */ = {
 			isa = PBXGroup;
 			children = (
+				C430BF27281F359300E47810 /* Images.xcassets */,
+				C430BF14281F33B600E47810 /* platformCode */,
 				C5958C5B174AFFBB00519AD9 /* Image Assets */,
 				C57A965316D7EB5500C233F1 /* BrogueCode */,
-				C57A964B16D7EB4C00C233F1 /* PlatformCode */,
+				C57A964B16D7EB4C00C233F1 /* iOSCode */,
 				C57A963716D7EAD500C233F1 /* AppDelegate.h */,
 				C57A963816D7EAD500C233F1 /* AppDelegate.m */,
-				C5B7FF1A1D8D933D00F04098 /* Main.storyboard */,
+				C430BF29281F35AE00E47810 /* Main.storyboard */,
 				C57A962F16D7EAD500C233F1 /* Supporting Files */,
-				C5D117031D8B786800356DBA /* Images.xcassets */,
 			);
 			path = iBrogueCE_iPad;
 			sourceTree = "<group>";
@@ -212,7 +240,7 @@
 				C57A963016D7EAD500C233F1 /* iBrogueCE_iPad-Info.plist */,
 				C57A963116D7EAD500C233F1 /* InfoPlist.strings */,
 				C57A963416D7EAD500C233F1 /* main.m */,
-				C57A963616D7EAD500C233F1 /* iBrogue_iPad-Prefix.pch */,
+				C57A963616D7EAD500C233F1 /* iBrogueCE_iPad-Prefix.pch */,
 				C57A963A16D7EAD500C233F1 /* Default.png */,
 				C57A963C16D7EAD500C233F1 /* Default@2x.png */,
 				C57A963E16D7EAD500C233F1 /* Default-568h@2x.png */,
@@ -220,7 +248,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C57A964B16D7EB4C00C233F1 /* PlatformCode */ = {
+		C57A964B16D7EB4C00C233F1 /* iOSCode */ = {
 			isa = PBXGroup;
 			children = (
 				ECBE68AC1EC0E1C600E9F366 /* BrogueViewController.swift */,
@@ -232,7 +260,8 @@
 				ECBE68A61EC0D4A200E9F366 /* RogueScene.swift */,
 				ECBE68AA1EC0DB1800E9F366 /* SKViewPort.swift */,
 			);
-			path = PlatformCode;
+			name = iOSCode;
+			path = ../ios;
 			sourceTree = "<group>";
 		};
 		C57A965316D7EB5500C233F1 /* BrogueCode */ = {
@@ -252,17 +281,12 @@
 				ECE2547B2404464700BAC3F4 /* Math.c */,
 				C57A965F16D7EB5500C233F1 /* Monsters.c */,
 				C57A966016D7EB5500C233F1 /* Movement.c */,
-				B5F40755271DE8EB005C2DD9 /* platform.h.old */,
-				B5F40753271DE8C3005C2DD9 /* platformdependent.c.old */,
 				C52686AA215C0B5D00033E3F /* PowerTables.c */,
 				C57A966216D7EB5500C233F1 /* Recordings.c */,
 				C57A966316D7EB5500C233F1 /* Rogue.h */,
-				C57A966416D7EB5500C233F1 /* RogueMain.mm */,
-				C5B9B66B17D23BE900D8459E /* Time.mm */,
-				C451840A281D979F003DDB6D /* platformdependent.c */,
-				C451840C281D97AF003DDB6D /* platform.h */,
 			);
-			path = BrogueCode;
+			name = BrogueCode;
+			path = src/brogue;
 			sourceTree = "<group>";
 		};
 		C5958C5B174AFFBB00519AD9 /* Image Assets */ = {
@@ -289,7 +313,8 @@
 				C5958C6A174AFFBB00519AD9 /* gamecenterlogo_brogue.png */,
 				C5958C6B174AFFBB00519AD9 /* gamecenterlogo_brogue@2x.png */,
 			);
-			path = "Image Assets";
+			name = "Image Assets";
+			path = "../ios/Image Assets";
 			sourceTree = "<group>";
 		};
 		ECE0ECF31F156DA600F65B75 /* Directional Controls */ = {
@@ -298,7 +323,8 @@
 				C532C8A31971AB8800695956 /* DirectionControlsViewController.h */,
 				C532C8A41971AB8800695956 /* DirectionControlsViewController.m */,
 			);
-			path = "Directional Controls";
+			name = "Directional Controls";
+			path = "PlatformCode/Directional Controls";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,14 +393,15 @@
 			files = (
 				C4170021281718DC00704CD4 /* BrogueCE.ttf in Resources */,
 				C57A963316D7EAD500C233F1 /* InfoPlist.strings in Resources */,
-				C5D117041D8B786800356DBA /* Images.xcassets in Resources */,
 				C57A963B16D7EAD500C233F1 /* Default.png in Resources */,
 				C57A963D16D7EAD500C233F1 /* Default@2x.png in Resources */,
 				C57A963F16D7EAD500C233F1 /* Default-568h@2x.png in Resources */,
 				C5FFC5DD17B9A913007A05F3 /* Default-Landscape@2x~ipad.png in Resources */,
+				C430BF2A281F35AE00E47810 /* Main.storyboard in Resources */,
 				C5D5EC6C16FC07EB00E9A9AF /* icon_72x72.png in Resources */,
 				C5D5EC6E16FC07F300E9A9AF /* icon_144x144.png in Resources */,
 				C5958C6C174AFFBB00519AD9 /* about_brogue.png in Resources */,
+				C430BF28281F359300E47810 /* Images.xcassets in Resources */,
 				C5958C6D174AFFBB00519AD9 /* about_brogue@2x.png in Resources */,
 				C5958C6E174AFFBB00519AD9 /* brogue_directionals.png in Resources */,
 				C5958C6F174AFFBB00519AD9 /* brogue_directionals@2x.png in Resources */,
@@ -384,7 +411,6 @@
 				C5958C73174AFFBB00519AD9 /* brogue_escapebutton@2x.png in Resources */,
 				C5958C74174AFFBB00519AD9 /* brogue_seed.png in Resources */,
 				C5958C75174AFFBB00519AD9 /* brogue_seed@2x.png in Resources */,
-				C5B7FF1B1D8D933D00F04098 /* Main.storyboard in Resources */,
 				C5958C76174AFFBB00519AD9 /* brogue_showinventory_button.png in Resources */,
 				C5958C77174AFFBB00519AD9 /* brogue_showinventory_button@2x.png in Resources */,
 				C5FFC5DF17B9A9DB007A05F3 /* Default-Landscape~ipad.png in Resources */,
@@ -405,6 +431,7 @@
 				C52686AB215C0B5D00033E3F /* PowerTables.c in Sources */,
 				ECE2547C2404464700BAC3F4 /* Math.c in Sources */,
 				C57A963516D7EAD500C233F1 /* main.m in Sources */,
+				C430BF22281F33B600E47810 /* web-platform.c in Sources */,
 				C57A963916D7EAD500C233F1 /* AppDelegate.m in Sources */,
 				ECBE68A91EC0D4C600E9F366 /* Cell.swift in Sources */,
 				C57A965116D7EB4C00C233F1 /* RogueDriver.mm in Sources */,
@@ -414,21 +441,23 @@
 				C57A966716D7EB5500C233F1 /* Combat.c in Sources */,
 				ECBE68AD1EC0E1C600E9F366 /* BrogueViewController.swift in Sources */,
 				C57A966816D7EB5500C233F1 /* Dijkstra.c in Sources */,
-				B5AC967A2720D49300077517 /* platformdependent.c.old in Sources */,
 				C57A966916D7EB5500C233F1 /* Globals.c in Sources */,
 				C57A966A16D7EB5500C233F1 /* Grid.c in Sources */,
 				ECBE68AB1EC0DB1800E9F366 /* SKViewPort.swift in Sources */,
 				C57A966B16D7EB5500C233F1 /* IO.c in Sources */,
 				C57A966C16D7EB5500C233F1 /* Items.c in Sources */,
+				C430BF23281F33B600E47810 /* sdl2-platform.c in Sources */,
 				C57A966D16D7EB5500C233F1 /* Light.c in Sources */,
 				C57A966E16D7EB5500C233F1 /* MainMenu.c in Sources */,
+				C430BF26281F33B600E47810 /* platformdependent.c in Sources */,
 				C57A966F16D7EB5500C233F1 /* Monsters.c in Sources */,
 				C57A967016D7EB5500C233F1 /* Movement.c in Sources */,
-				C451840B281D979F003DDB6D /* platformdependent.c in Sources */,
 				C57A967216D7EB5500C233F1 /* Recordings.c in Sources */,
+				C430BF21281F33B600E47810 /* term.c in Sources */,
 				ECBE68A71EC0D4A200E9F366 /* RogueScene.swift in Sources */,
-				C5B9B66C17D23BEA00D8459E /* Time.mm in Sources */,
-				D0AA262E9AAE2270BA0ABBA1 /* RogueMain.mm in Sources */,
+				C430BF24281F33B600E47810 /* main.c in Sources */,
+				C430BF20281F33B600E47810 /* curses-platform.c in Sources */,
+				C430BF25281F33B600E47810 /* tiles.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
