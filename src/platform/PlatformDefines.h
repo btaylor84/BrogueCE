@@ -27,3 +27,8 @@
 #define BROGUE_LIBTCOD
 #define PLAY_AGAIN_STRING   "Press space to play again."
 
+// iPad additions
+#define BROGUE_EXTRA_VERSION "iPad"
+#define DATADIR "./"
+
+

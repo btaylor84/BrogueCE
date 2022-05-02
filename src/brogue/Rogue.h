@@ -91,7 +91,8 @@ strings, but they are equal (rogue.patchLevel is set to 0).
 #define DELETE_SAVE_FILE_AFTER_LOADING  true
 
 // set to false to disable references to keystrokes (e.g. for a tablet port)
-#define KEYBOARD_LABELS true
+// BT: changed to a global constant that changes when a tablet detects an attached mechanical keyboard
+#define KEYBOARD_LABELS (keyboardPresent)
 
 //#define BROGUE_ASSERTS        // introduces several assert()s -- useful to find certain array overruns and other bugs
 //#define AUDIT_RNG             // VERY slow, but sometimes necessary to debug out-of-sync recording errors
@@ -2675,6 +2676,7 @@ typedef struct archivedMessage {
     unsigned long flags;
 } archivedMessage;
 
+extern boolean keyboardPresent;     // detected keyboard on a tablet
 extern boolean serverMode;
 extern boolean hasGraphics;
 extern enum graphicsModes graphicsMode;

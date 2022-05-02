@@ -26,10 +26,10 @@
 #include <time.h>
 
 
-void rogueMain() {
-    previousGameSeed = 0;
-    mainBrogueJunction();
-}
+//void rogueMain() {
+//    previousGameSeed = 0;
+//    mainBrogueJunction();
+//}
 
 void executeEvent(rogueEvent *theEvent) {
     rogue.playbackBetweenTurns = false;
