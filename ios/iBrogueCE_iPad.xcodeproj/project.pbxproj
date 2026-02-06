@@ -474,7 +474,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ST4D2Q7PJ6;
+				DEVELOPMENT_TEAM = J33P3R33M4;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBrogueCE_iPad/iBrogueCE_iPad-Prefix.pch";
@@ -490,7 +490,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.14.1;
-				PRODUCT_BUNDLE_IDENTIFIER = bryan.turner.broguece;
+				PRODUCT_BUNDLE_IDENTIFIER = md.taylor.broguece;
 				PRODUCT_NAME = BrogueCE;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -517,7 +517,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ST4D2Q7PJ6;
+				DEVELOPMENT_TEAM = J33P3R33M4;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBrogueCE_iPad/iBrogueCE_iPad-Prefix.pch";
@@ -533,7 +533,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.14.1;
-				PRODUCT_BUNDLE_IDENTIFIER = bryan.turner.broguece;
+				PRODUCT_BUNDLE_IDENTIFIER = md.taylor.broguece;
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = md.taylor.broguece;
 				PRODUCT_NAME = BrogueCE;
 				PROVISIONING_PROFILE = "";
