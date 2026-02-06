@@ -535,7 +535,7 @@ extension BrogueViewController: UITextFieldDelegate {
         
         shiftModifierPressed = key.modifierFlags.contains([.shift,.alphaShift])
         controlModifierPressed = key.modifierFlags.contains(.control)
-    }
+      }
     
     
     override func pressesEnded(_ presses: Set<UIPress>, with event: UIPressesEvent?) {
