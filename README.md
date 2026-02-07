@@ -24,6 +24,7 @@ lucky few to return alive?
 - IRC: [##brogue on Libera Chat](https://kiwiirc.com/nextclient/irc.libera.chat/##brogue)
 - [Original website](https://sites.google.com/site/broguegame/)
 - [Android port](https://github.com/bilgincoskun/brogue-android-port/releases)
+- [iPad Version on the Apple Store](https://apps.apple.com/us/app/ibroguece/id1619142059)
 
 
 Playing
@@ -56,6 +57,13 @@ required packages are:
 
 You can also run `./make-link-for-desktop.sh` to generate a .desktop file to
 place on your desktop or applications folder.
+
+### iPad OS
+
+1. Download the game from the Apple App store.
+2. Play the game.
+3. ????
+4. Profit!
 
 ### More information
 
