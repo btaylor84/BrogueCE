@@ -190,7 +190,7 @@ void initializeGameVariant() {
 void initializeRogue(uint64_t seed) {
     short i, j, k;
     item *theItem;
-    boolean playingback, playbackFF, playbackPaused, mode, displayStealthRangeMode;
+    boolean playingback, playbackFF, playbackPaused, displayStealthRangeMode;
     boolean trueColorMode;
     boolean hideSeed;
     short oldRNG;
