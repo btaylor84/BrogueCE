@@ -1,10 +1,19 @@
+1.15.1
+======
+
+- Fixed a bug that sometimes caused Brogue to switch to easy mode without confirmation.
+- Fixed a bug where switching to easy mode in-game didn't do anything.
+- Fixed other broken code related to game modes.
+
+
 1.15
 ====
 
-Miscellaneous improvements and bug fixes.
+This version adds the Bullet Brogue variant, as well as many miscellaneous improvements and bug fixes.
 
 Thanks to co-maintainers flend and zenzombie, and to contributors adrior11, AndrewSav, BoatsandJoes, Bryan Turner, Hectocotylus, thebrave, nathanf, ZayadNimrod, androidnisse, and zeb33n.
 
+- Added Bullet Brogue, a variant even shorter than Rapid Brogue. (Play it via Play > Change Variant.)
 - Increased the brightness of the "hide color effects" mode to match the normal mode.
 - Added messages to the game log for zapping wands and staffs.
 - Loading a save file will now place the game into the same mode the save was made in (i.e normal, wizard, or easy).
